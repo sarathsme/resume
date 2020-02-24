@@ -72,6 +72,8 @@ Last Updated on
 % Location command
 \newcommand{\location}[1]{\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
 
+\newcommand{\skillYears}[1]{\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{15pt}\selectfont {#1\\} \normalfont}
+
 % Section seperators command
 \newcommand{\sectionsep}[0]{\vspace{8pt}}
 

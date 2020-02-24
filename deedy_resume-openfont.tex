@@ -1,10 +1,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% SARATH's TODO
-% Add lang/framework info to all major projects
-% Add a line describing each major project ?
-% Get more power verbs (owned) from CP resume
-% Make skills more prominent
-% Reorder projects
+% TODO
+% Proof read real PDF - cross browser/OS
+% Test on a real applicant-tracking-system
+% ATS hacks?
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[]{deedy-resume-openfont}
@@ -29,8 +27,9 @@
 \namesection{Sarath S}{Menon}
 {
     \urlstyle{same}
-    \href{https://www.linkedin.com/in/sarathsme}{linkedin.com/in/sarathsme} \\
-    \href{mailto:sarathmenon1993@gmail.com}{sarathmenon1993@gmail.com} | \href{tel:+919048461414} +91 9048 46 1414
+    \href{https://www.linkedin.com/in/sarathsme}{linkedin.com/in/sarathsme} | 
+    \href{tel:+919048461414} +91 9048 46 1414 | 
+    \href{mailto:sarathmenon1993@gmail.com}{sarathmenon1993@gmail.com}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -66,27 +65,30 @@ Stack Overflow://  \href{https://stackoverflow.com/users/6498687/sarath-s-menon}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Skills}
-\subsection{Technical}
-\location{Over 2 years:}
+% \subsection{Technical}
+\skillYears{Over 2 years:}
 C\# \textbullet{} Angular 2+ \textbullet{} JavaScript \textbullet{} .NET \textbullet{} SQLServer \\ 
-\location{Over 6 months:}
+\skillYears{Over 6 months:}
 Java \textbullet{} Android \textbullet{} React Native  \textbullet{} Spring \textbullet{} Groovy \textbullet{} Grails \\
-\location{Familiar:}
-.NET Core \textbullet{} ReactJs \textbullet{} Shell Script \textbullet{} MySQL \textbullet{} PostgreSQL 
+\skillYears{Familiar:}
+.NET Core \textbullet{} ReactJs \textbullet{} Shell Script \textbullet{} MySQL \textbullet{} PostgreSQL \\
 \sectionsep
 
-\subsection{Languages}
-English \textbullet{} Hindi \textbullet{} Malayalam
-\sectionsep
+% \subsection{Languages}
+% English \textbullet{} Hindi \textbullet{} Malayalam
+% \sectionsep
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     INTERESTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Interests}
 \subsection{Technical}
 Machine learning \textbullet{} Data analytics \textbullet{} Analysis of algorithms and optimization \textbullet{} Microservices
-\sectionsep Accessibility Evangelist
+\textbullet{} Accessibility Evangelist
 
 \subsection{Others}
-Politics \textbullet{} Environmentalism \textbullet{} Football (Soccer) \textbullet{} Swimming \textbullet{} Movies 
+Politics \textbullet{} Environmentalism \textbullet{} Football (Soccer) \textbullet{} Swimming
 \sectionsep
 
 
@@ -113,72 +115,72 @@ Politics \textbullet{} Environmentalism \textbullet{} Football (Soccer) \textbul
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
     \item Led the design and development of an e-Book e-commerce web application in Java and angular 2+
-    % TODO: Change below line
-    \item R&D, prototyping and estimation of prospective products
+% TODO: Ask Rahul CP.
+    \item Engaged in R\&D, prototyping and effort estimation of potential projects
     \item Full stack web development in a health application using .NET Web API and Angular 2+
-    \item Development of a webinar organizer using Grails web framework 
-    \item Android app development and optimizations
+    \item Owned and maintained a webinar organizer using Grails web framework 
+    \item Developed cross platform mobile applications
     
 \end{tightemize}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Major Projects
+%     MAJOR PROJECTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Major Projects}
 
-\runsubsection{Instant PHR and CHBase}\\
-\descript{Multi-tenant CMS driven health data repository for patient engagement}
+\runsubsection{Instant PHR and CHBase}
+\descript{| Health applications for patient engagement | .NET and Angular 2+}
 \begin{tightemize} 
-    \item Designed the architecture for a .NET Web API - Angular 2+ application to replace the legacy .NET Web forms product.
-    \item Designed and executed the migration of existing user data from the legacy application to the revamped product.
-    \item Designed and developed a SAML 2.0 based Single sign on plugin.
-    \item Stabilized and improved the performance of the legacy Instant PHR Android application
+    \item CHBase is a health data repository that replaced Microsoft HealthVault and PHR is a multi-tenant CMS driven health app over CHBase
+    \item Designed the architecture for a .NET Web API - Angular 2+ application to replace the legacy .NET Web forms product
+    \item Strategised and executed the migration of existing user data from the legacy application to the revamped product
+    \item Implemented a SAML 2.0 based Single sign on plugin
+    \item Stabilised and improved the performance of the legacy Instant PHR Android application
 \end{tightemize}
 \sectionsep
 
 \runsubsection{E-book e-commerce system}
-\descript{| Multi tenant CMS driven web application}
+\descript{| Multi tenant CMS driven web application | Java and Angular 2+}
 \begin{tightemize}
-% TODO: Ask Rahul CP
-    \item Led a team of 7 in the design and development of the application using microservice architecture.
-    \item Designed a CMS driven angular website with ability to add/modify pages from an admin UI. 
-    \item Developed a multi-tenant architecture so that multiple clients can work on the same backend and database.
-\end{tightemize}
-\sectionsep
-
-
-\runsubsection{Public information system for US Govt. Agency}\\
-\descript{Cross platform React Native application}
-\begin{tightemize}
-    \item Developed a cross platform React native application for public information display
-    \item Developed features for complaints, feedback, news bulletins etc.
+% TODO: Ask Rahul CP about mentioning team size
+    \item Spearheaded a team of 7 in the design and development of the application using microservice architecture
+    \item Engineered a CMS driven angular website with ability to add/modify pages from an admin UI
+    \item Developed a multi-tenant architecture so that multiple clients can work on the same backend and database
 \end{tightemize}
 \sectionsep
 
 \runsubsection{Liveguide}
-\descript{| Grails framework based webinar scheduler}
+\descript{| Webinar scheduler | Grails framework}
 \begin{tightemize}
     \item A webinar scheduler used by marketing teams in academic institutions
-    \item Owned and maintained the project for 3 years.
-    \item Handled all phases of development(except QA) including solution architecture, development, deployment, server maintenance etc.
+    \item Owned and maintained the project for 3 years
+    \item Handled all phases of development(except QA) including solution architecture, development, deployment, server maintenance etc
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Public information system for US Govt. Agency}\\
+\descript{Cross platform React Native application}
+\begin{tightemize}
+    \item Created a cross platform React native application for public information display
+    \item Implemented features for complaints, feedback, news bulletins etc.
 \end{tightemize}
 \sectionsep
 
 \runsubsection{E-YANTRA 2013}
 \descript{| Fertilizer robot | Embedded C}
 \begin{tightemize}
-    \item Firebird V robot programmed to follow black line grids.
-    \item Find shortest path to fertilize plants on the grid, traverses the path and fertilizes each plant.
+    \item Firebird V robot programmed to follow black line grids
+    \item Built a feature to find the shortest path in a grid, traverse the path and fertilise each of the specified plants
 \end{tightemize}
 \sectionsep
 
 % \runsubsection{Video Book Reader}
 % \descript{| Android application}
 % \begin{tightemize}
-%     \item Revamped an existing android Video book reader with modern UI.
-%     \item Stabilised and restructured the application.
+%     \item Revamped an existing android Video book reader with modern UI
+%     \item Stabilised and restructured the application
 % \end{tightemize}
 % \sectionsep
 
@@ -186,23 +188,23 @@ Politics \textbullet{} Environmentalism \textbullet{} Football (Soccer) \textbul
 % \descript{| .NET Web forms}
 % \begin{tightemize}
 %     \item Designed the architecture for a Role Permission based access control system
-%     \item Developed a tree shaker application to prune unused files in a .NET web forms application.
+%     \item Developed a tree shaker application to prune unused files in a .NET web forms application
 % \end{tightemize}
 % \sectionsep
 
 % \runsubsection{Water treatment monitoring}
 % \descript{| Angular 2+ and D3}
 % \begin{tightemize}
-%     \item Developed feature to display stats (graphs, gauges etc) for various metrics(pressure, temperature) involved in the process using D3.js
-%     \item Designed and developed a feature for efficient error handling and logging
+%     \item Developed a feature to display stats (graphs, gauges etc) for various metrics(pressure, temperature) involved in the process using D3.js
+%     \item Built a feature for efficient error handling and logging
 % \end{tightemize}
 % \sectionsep
 
 % \runsubsection{Forms Builder}
-% \descript{| Web library to design complex forms}
+% \descript{| Library to design complex forms | Angular 2+}
 % \begin{tightemize}
 %     \item Java - Angular 8 NPM library to design and consume complex forms
-%     \item Designed and implemented the architecture for the library involving JSON driven form components
+%     \item Conceptualized and implemented the architecture for the library involving JSON driven form components
 % \end{tightemize}
 % \sectionsep
 
